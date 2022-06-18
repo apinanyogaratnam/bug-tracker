@@ -1,0 +1,6 @@
+[submodule "bug-tracker-client"]
+	path = bug-tracker-client
+	url = git@github.com:apinanyogaratnam/bug-tracker-client.git
+[submodule "bug-tracker-service"]
+	path = bug-tracker-service
+	url = git@github.com:apinanyogaratnam/bug-tracker-service.git
