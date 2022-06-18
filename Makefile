@@ -8,3 +8,6 @@ push-git-tag:
 
 workflow:
 	make tag-git && make push-git-tag
+
+up:
+	docker-compose up
