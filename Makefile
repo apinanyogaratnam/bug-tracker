@@ -11,3 +11,6 @@ workflow:
 
 up:
 	docker-compose up
+
+submodule:
+	git submodule update --recursive --remote
