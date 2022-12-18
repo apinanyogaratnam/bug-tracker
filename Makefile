@@ -14,3 +14,6 @@ up:
 
 submodule:
 	git submodule update --recursive --remote
+
+auth:
+	grep -v '^#' .env.local | grep -e "CR_PAT" | sed -e 's/.*=//' | docker login ghcr.io -u USERNAME --password-stdin
